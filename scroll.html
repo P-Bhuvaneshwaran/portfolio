@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html{
+            scroll-behavior: smooth;
+        }
+        .container{
+            width: 100%;
+            height: auto;
+        }
+        section{
+            height: 100vh;
+            background-color: lightblue;
+            border: 1px solid;
+        }
+        nav{
+            background-color: white;
+            height: 60px;
+            border: 1px solid;
+            position: sticky;
+            top: 0;
+        }
+        section:nth-child(1){
+            background-color: rgb(71, 71, 71);
+        }
+        section:nth-child(2){
+            background-color: rgb(71, 71, 71);
+            color: white;
+            /* background-color: lightgreen; */
+        }
+        section:nth-child(3){
+            background-color: rgb(71, 71, 71);
+            color: white;
+            /* background-color: lightpink; */
+        }
+        section:nth-child(4){
+            background-color: rgb(71, 71, 71);
+            color: white;
+            /* background-color: lightsalmon; */
+        }
+        section:nth-child(5){
+            background-color: rgb(71, 71, 71);
+            color: white;
+            /* background-color: lightslategray; */
+        }
+        section:nth-child(6){
+            background-color: rgb(71, 71, 71);
+            color: white;
+            /* background-color: lightslategray; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h3>Portfolio.</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="section-home" id="home">
+            <div id="home-body">
+                <div class="intro-box boxes">
+                    <div id="about-me">
+                        <p id="mi">Hello, I am <span>Bhuvaneshwaran P</span></p>
+                        <p id="role">I am a <span>Frontend Developer</span></p>
+                        <p id="about">I enjoy creating visually appealing and user-friendly websites that provide a seamless experience for users. My focus is on writing clean, efficient code and continually improving my skills to keep up with the latest trends in web development. Welcome to my portfolio, where you can see some of the projects I've worked on.</p>
+                    
+                        <button><a href="#about">More about me</a></button>
+                    </div>
+                </div>
+                <div class="image-box boxes">
+                    <div class="img-bolder">
+                        <div class="img-holder">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about" id="about">
+            <p id="nav-title">About Me</p>
+            <div class="about-body">
+                <div class="boxes boxes1">
+                    <div class="img--">
+                        <div class="img--holder">
+                            <div class="img--border">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about--">
+                        <h1 style="text-align: center;padding: 5px;color: #ffd902;">Bhuvaneshwaran P</h1>
+                        <div class="bio--data">
+                            <table style="width: 60%;">
+                                <tr>
+                                    <th>Age</th>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <th>D.O.B</th>
+                                    <td>9 Nov 2002</td>
+                                </tr>
+                                <tr>
+                                    <th>Email</th>
+                                    <td>bhuvaneshwaran91102@gmail.com</td>
+                                </tr>
+                                
+                            </table>
+                            <table style="width: 35%;">
+                                <tr>
+                                    <th>Phone</th>
+                                    <td>+91 82220374269</td>
+                                </tr>
+                                <tr>
+                                    <th>Degree</th>
+                                    <td>B.E</td>
+                                </tr>
+                                <tr>
+                                    <th>City</th>
+                                    <td>Erode, TN.</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boxes boxes2">
+                    <div class="content--">
+                        <div class="about-me--">
+                            <H1 style="text-indent: 20px;padding: 10px 0px;">I'm a <span style="color: #ffd902;">Frontend Developer</span></H1>
+                            <p style="text-indent: 40px;width: 90%;margin-left: 30px;line-height: 25px;font-family:Georgia, 'Times New Roman', Times, serif;font-size: 15px;padding: 10px 0px;">As i creating user friendly and attractive websites with a advanced languages. i love coding and learning new technologies to improve my skills.</p>
+                        </div>
+                        <div class="progressbar--">
+                            <div class="progress--">
+                                <p style="width: 50px;">Html</p>
+                                <div class="bar--">
+                                    <div style="width: 280px;height: 8px;border-radius: 10px;background-color: orangered;"></div>
+                                </div>
+                                <p>95%</p>
+                            </div>
+                            <div class="progress--">
+                                <p style="width: 50px;">Css</p>
+                                <div class="bar--">
+                                    <div style="width: 280px;height: 8px;border-radius: 10px;background-color: orangered;"></div>
+                                </div>
+                                <p>95%</p>
+                            </div>
+                            <div class="progress--">
+                                <p style="width: 50px;">Bootstrap</p>
+                                <div class="bar--">
+                                    <div style="width: 265px;height: 8px;border-radius: 10px;background-color: orangered;"></div>
+                                </div>
+                                <p>85%</p>
+                            </div>
+                            <div class="progress--">
+                                <p style="width: 50px;">JavaScript</p>
+                                <div class="bar--">
+                                    <div style="width: 250px;height: 8px;border-radius: 10px;background-color: orangered;"></div>
+                                </div>
+                                <p>75%</p>
+                            </div>
+                        </div>
+                        <div class="btns--">
+                            <!-- <div class="btn--1"> -->
+                                <a href="BhuvaneshwaranP(2).pdf" download="BhuvaneshwaranP(2).pdf">
+                                    <button>Download CV</button>
+                                </a>
+                                <button>Hire Me</button>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section-services" id="services">
+            <p id="nav-title">Services</p>
+            <div class="service-body">
+                <div id="services-box">
+                    <div class="mi-service">
+                        <div class="service-icon"><i class="fa-solid fa-mobile"></i></div>
+                        <div class="icon-content"><p class="bold" >Responsive Website Design</p> <p class="intent">I build responsive websites that look great on all devices. I ensure that your site is accessible and user-friendly.</p></div>
+                    </div>
+                    <div class="mi-service">
+                        <div class="service-icon"><i class="fa-solid fa-laptop"></i></div>
+                        <div class="icon-content"><p class="bold">Frontend Development</p> <p class="intent">I specialize in creating interactive and dynamic frontends using JavaScript and modern frameworks.</p></div>
+                    </div>
+                    <div class="mi-service">
+                        <div class="service-icon"><i class="fa-regular fa-file"></i></div>
+                        <div class="icon-content"><p class="bold">Landing Page Design</p> <p class="intent">I design and develop custom landing pages optimized for conversions, focusing on clear messaging, and user engagement.</p></div>
+                    </div>
+                    <div class="mi-service">
+                        <div class="service-icon"><i class="fa-regular fa-user"></i></div>
+                        <div class="icon-content"><p class="bold">Personal Website Development</p> <p class="intent">I design and develop personalized portfolios and websites to showcase your work or personal brand, and responsive layouts</p></div>
+                    </div>
+                    <div class="mi-service">
+                        <div class="service-icon"><i class="fa-solid fa-cloud-bolt"></i></div>
+                        <div class="icon-content"><p class="bold">Interactive Animation</p> <p class="intent">I enhance websites with interactive elements and animations, creating engaging and visually appealing experiences for users.</p></div>
+                    </div>
+                    <div class="mi-service">
+                        <div class="service-icon"><i class="fa-brands fa-bootstrap"></i></div>
+                        <div class="icon-content"><p class="bold">Bootstrap-Based Web Design</p><p class="intent">Bootstrap is to create responsive, grid-based designs. This ensures a consistent and professional look across all devices. </p></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section-portfolio" id="portfolio">
+            <div class="port-body">
+                <p id="nav-title">Portfolio</p>
+                <p id="mi-projects">My Projects: </p>
+                <div id="projects">
+                    <div class="box">
+                        <a href="https://p-bhuvaneshwaran.github.io/todo-list/todo-list.html">
+                            <div class="img img1" id="img1"></div>
+                            <div class="img-title">1. ToDo-List Project</div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="https://p-bhuvaneshwaran.github.io/Notes/notes">
+                            <div class="img img1" id="img2"></div>
+                            <div class="img-title">2. Notes Project</div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="https://p-bhuvaneshwaran.github.io/quiz/index">
+                            <div class="img img1" id="img3"></div>
+                            <div class="img-title">3. Quiz Project</div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="https://p-bhuvaneshwaran.github.io/snake-game/">
+                            <div class="img img1" id="img4"></div>
+                            <div class="img-title">4. Snake Game Project</div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="https://p-bhuvaneshwaran.github.io/tictactoe/xoxGame.html">
+                            <div class="img img1" id="img5"></div>
+                            <div class="img-title">5. XoX Game Project</div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="https://p-bhuvaneshwaran.github.io/random-no-game/08.08.html">
+                            <div class="img img1" id="img6"></div>
+                            <div class="img-title">6. Random Number Game Project</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-contact" id="contact">
+            <div class="contact-body">
+                <p id="nav-title">Contact us</p>
+                <div class="form">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="d31c83b9-2cb5-4bf6-bf0f-1a97753060ca">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="" placeholder="Enter Your Name" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="" placeholder="Enter Your Email Address" required>
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" id="" placeholder="Enter Your Phone Number" required>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="" cols="10" rows="8" placeholder="Enter Your Message Here..." required></textarea>
+                        
+
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <input type="submit" value="Submit Message">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

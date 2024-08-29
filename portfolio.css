@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+
+
+.port-body{
+    width: 100%;
+    height: calc(100vh - 60px);
+
+    #mi-projects{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        padding:0px 100px;
+    }
+    #projects{
+        width: 100%;
+        /* background-color: lightgray; */
+        height: 480px;
+        display: grid;
+        /* place-content: center; */
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 220px 220px 220px;
+        row-gap: 25px;
+        column-gap: 30px;
+        padding: 10px 200px;
+        
+        .box{
+            /* background-color: orange; */
+            /* border: 1px solid; */
+            /* padding: 5px; */
+            /* border-radius: 10px; */
+            .img{
+                width: 100%;
+                height: calc(100% - 30px);
+                /* background-image: url("todo-link.png"); */
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 5px 5px 0px 0px;
+            }
+            .img:hover{
+                opacity: 0.5;
+            }
+            #img1{
+                background-image: url("todo-link.png");
+            }
+            #img2{
+                background-image: url("notes-link.png");
+                /* background-size: contain; */
+                background-position: center;
+            }
+            #img3{
+                background-image: url("quiz-link.png");
+            }
+            #img4{
+                background-image: url("snake-link.png");
+            }
+            #img5{
+                background-image: url("xox-link.png");
+            }
+            #img6{
+                background-image: url("random-no-link.png");
+            }
+            .img-title{
+                /* padding: 5px; */
+                border-radius: 0px 0px 5px 5px;
+                /* background-color: red; */
+                height: 40px;
+                display: flex;
+                /* border-radius: inherit; */
+                align-items: center;
+                padding-left: 10px;
+                background-color:orange;
+                font-size: 13px;
+                box-shadow: rgba(0, 0, 0, 0.30) 2px 2px 2px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                /* font-weight: bold; */
+            }
+        }
+    }
+}
